@@ -1,0 +1,17 @@
+{
+  "name": "mi-app-express",
+  "version": "1.0.0",
+  "description": "Aplicacion Node.js para laboratorio de CI/CD en Azure DevOps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --ci --detectOpenHandles"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
